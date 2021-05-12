@@ -17,11 +17,7 @@ int main() {
         cin >> grades[i].second >> grades[i].first;
         total += grades[i].second;
     }
-    /*ans = (double) total / n;
-    if (ans <= r) {
-        cout << 0;
-        return 0;
-    }*/
+  
     sort(grades.begin(), grades.end());
     for (auto i:grades)
     {
